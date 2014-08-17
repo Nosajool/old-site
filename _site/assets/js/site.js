@@ -5,7 +5,7 @@ function hideAll(){
 }
 
 function hideRmAnimation(){
-	$('#' + active).hide().removeClass("bounceIn");
+	$('#' + active).hide().removeClass("fadeInRight");
 }
 var active = "main";
 $(document).ready(function(){
@@ -14,18 +14,18 @@ $(document).ready(function(){
 	$('#blog-button').click(function(){
 		hideRmAnimation();
 		active = "post-list";
-		$('#post-list').show().addClass("bounceIn");
+		$('#post-list').show().addClass("fadeInRight");
 	});
 
 	$('#about-me-button').click(function(){
 		hideRmAnimation();
 		active = "about";
-		$('#about').show().addClass("bounceIn");
+		$('#about').show().addClass("fadeInRight");
 	});
 
 	$('#projects-button').click(function(){
 		hideRmAnimation();
 		active = "projects";
-		$('#projects').show().addClass("bounceIn");
+		$('#projects').show().addClass("fadeInRight");
 	});
 });
