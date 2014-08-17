@@ -1,0 +1,24 @@
+#-------------------------------
+# General Site Settings
+
+title: Jason Loo
+description: Software Engineering Student at the University of Waterloo
+email: jmloo@uwaterloo.ca
+
+#-------------------------------
+# About Section
+
+blurb: >
+  Something Something Something
+
+
+#-------------------------------
+# Work Section
+
+projects:
+- {name: Kik The Code, folder: 'kik-the-code', file: 'projects/kik-the-code.html'}
+- {name: League of Valor, folder: 'league-of-valor', file: 'projects/league-of-valor.html'}
+- {name: Smack Down, folder: 'smack-down', file: 'projects/smack-down.html'}
+- {name: Questionit, folder: 'questionit', file: 'projects/questionit.html'}
+- {name: Github Issue Generator, folder: 'github-issue-generator', file: 'projects/github-issue-generator.html'}
+- {name: Vion Genesis, folder: 'vion-genesis', file: 'projects/vion-genesis.html'}

@@ -1,6 +1,7 @@
 function hideAll(){
 	$('#post-list').hide();
 	$('#about').hide();
+	$('#projects').hide();
 }
 
 function hideRmAnimation(){
@@ -20,5 +21,11 @@ $(document).ready(function(){
 		hideRmAnimation();
 		active = "about";
 		$('#about').show().addClass("bounceIn");
+	});
+
+	$('#projects-button').click(function(){
+		hideRmAnimation();
+		active = "projects";
+		$('#projects').show().addClass("bounceIn");
 	});
 });

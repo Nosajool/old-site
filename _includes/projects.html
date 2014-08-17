@@ -1,1 +1,8 @@
-<!-- Projects -->
+<div id="projects">
+	<h1>Projects</h1>
+	{% for project in site.data.settings.projects %}
+	    <ul>
+	    	<li>{{ project.name }}</li>
+	    </ul>
+	{% endfor %}
+</div>
