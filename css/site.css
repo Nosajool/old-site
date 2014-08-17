@@ -3,12 +3,12 @@
 
 body{
 	background-color: #F5F5DC;
+	font-family: 'Lato';
 }
 
 /* Header */
 #title-text{
 	display: inline-block;
-	font-family: 'Lato';
 	font-size: 50px;
 }
 
@@ -32,16 +32,4 @@ body{
 	display: inline-block;
 	margin: 0 10px;
 	cursor: pointer;
-}
-
-.footer-button:hover{
-	background-color: #D1D1A9;
-}
-.footer-button:link{
-	text-decoration: none;
-	color: #333;
-}
-
-.footer-button:visited{
-	color: #333;
 }
