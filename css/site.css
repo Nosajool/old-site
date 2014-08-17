@@ -1,20 +1,47 @@
 /*Jason Loo*/
 
 
-/*Footer*/
-
-.footer-box{
-	background-color: #51A943;
+body{
+	background-color: #F5F5DC;
 }
 
-#about-me-box{
-
+/* Header */
+#title-text{
+	display: inline-block;
+	font-family: 'Lato';
+	font-size: 50px;
 }
 
-#projects-box{
+/* Footer */
 
+#footer-area{
+	width: 60%;
+	margin: 0 auto;
 }
 
-#blog-box{
+.footer-button{
+	background-color: #B1B17A;
+	width: 200px;
+	height: 40px;
+	font-family: 'Lato';
+	text-align: center;
+	line-height: 35px;
+	font-size: 30px;
+	border: 2px solid;
+	border-radius: 7px;
+	display: inline-block;
+	margin: 0 10px;
+	cursor: pointer;
+}
 
+.footer-button:hover{
+	background-color: #D1D1A9;
+}
+.footer-button:link{
+	text-decoration: none;
+	color: #333;
+}
+
+.footer-button:visited{
+	color: #333;
 }
