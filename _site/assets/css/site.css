@@ -1,4 +1,4 @@
-/*Jason Loo*/
+/* Jason Loo */
 
 
 body{
@@ -36,4 +36,19 @@ body{
 
 .footer-button:hover{
 	background-color: #D1D1A9;
+}
+
+/* About Me */
+
+#teams{
+
+}
+
+#teams td{
+	width: 200px;
+}
+
+.team-logo{
+	width: 100px;
+	height: 100px;
 }

@@ -8,17 +8,66 @@ email: jmloo@uwaterloo.ca
 #-------------------------------
 # About Section
 
-blurb: >
-  Something Something Something
+intro: >
+  ### Hi, my name is **Jason**
+
+  I'm a Software Engineering student at the University of Waterloo currently on my first co-op term.
+
+
+  I will be heading into 2A this coming fall.
+
+school:
+- term: Co-op 1
+  season: Spring 2014
+  courses:
+  - code: PD 20
+    title: Engineering Workplace Skills I Developing Reasoned Conclusions
+- term: 1B
+  season: Winter 2014
+  courses:
+  - code: CS 138
+    title: Introduction to Data Abstraction and Implementation
+    cs: true
+  - code: ECE 106
+    title: Physics of Electrical Engineering 2
+  - code: ECE 124
+    title: Digital Circuits and Systems
+  - code: MATH 119
+    title: Calculus 2 for Engineering
+  - code: MATH 135
+    title: Algebra for Honours Mathematics
+- term: 1A
+  season: Fall 2013
+  courses:
+  - code: CS 137
+    title: Programming Principles
+    cs: true
+  - code: ECE 105
+    title: Physics of Electrical Engineering 1
+  - code: ECE 140
+    title: Linear Circuits
+  - code: MATH 115
+    title: Linear Algebra for Engineering
+  - code: MATH 117
+    title: Calculus 1 for Engineering
+  - code: SE 101
+    title: Introduction to Methods of Software Engineering
+    cs: true
+
+
+teams:
+- { name: Ottawa Senators, image: senators_logo.png }
+- { name: Washington Capitals, image: capitals_logo.png }
+- { name: Counter Logic Gaming, image: clg_logo.png }
 
 
 #-------------------------------
 # Work Section
 
 projects:
-- {name: Kik The Code, folder: 'kik-the-code', file: 'projects/kik-the-code.html'}
-- {name: League of Valor, folder: 'league-of-valor', file: 'projects/league-of-valor.html'}
-- {name: Smack Down, folder: 'smack-down', file: 'projects/smack-down.html'}
-- {name: Questionit, folder: 'questionit', file: 'projects/questionit.html'}
-- {name: Github Issue Generator, folder: 'github-issue-generator', file: 'projects/github-issue-generator.html'}
-- {name: Vion Genesis, folder: 'vion-genesis', file: 'projects/vion-genesis.html'}
+- { name: Kik The Code, folder: 'kik-the-code', file: 'projects/kik-the-code.html' }
+- { name: League of Valor, folder: 'league-of-valor', file: 'projects/league-of-valor.html' }
+- { name: Smack Down, folder: 'smack-down', file: 'projects/smack-down.html' }
+- { name: Questionit, folder: 'questionit', file: 'projects/questionit.html' }
+- { name: Github Issue Generator, folder: 'github-issue-generator', file: 'projects/github-issue-generator.html' }
+- { name: Vion Genesis, folder: 'vion-genesis', file: 'projects/vion-genesis.html' }

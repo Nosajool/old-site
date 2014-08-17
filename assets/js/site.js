@@ -1,3 +1,5 @@
+// Jason Loo
+
 function hideAll(){
 	$('#post-list').hide();
 	$('#about').hide();
@@ -5,7 +7,7 @@ function hideAll(){
 }
 
 function hideRmAnimation(){
-	$('#' + active).hide().removeClass("fadeInRight");
+	$('#' + active).hide().removeClass("zoomIn");
 }
 var active = "main";
 $(document).ready(function(){
@@ -14,18 +16,18 @@ $(document).ready(function(){
 	$('#blog-button').click(function(){
 		hideRmAnimation();
 		active = "post-list";
-		$('#post-list').show().addClass("fadeInRight");
+		$('#post-list').show().addClass("zoomIn");
 	});
 
 	$('#about-me-button').click(function(){
 		hideRmAnimation();
 		active = "about";
-		$('#about').show().addClass("fadeInRight");
+		$('#about').show().addClass("zoomIn");
 	});
 
 	$('#projects-button').click(function(){
 		hideRmAnimation();
 		active = "projects";
-		$('#projects').show().addClass("fadeInRight");
+		$('#projects').show().addClass("zoomIn");
 	});
 });
