@@ -1,0 +1,23 @@
+.thumb-container{
+	max-width: 960px;
+	.thumb-unit{
+		width: 33%;
+		padding-top: 20%;
+		/*height: 150px;*/
+		display: block;
+		float: left;
+		background-image: url(/assets/img/projects/kik-the-code/img1.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+
+		.thumb-overlay{
+			position: absolute;
+			left: 0px;
+			right: 0px;
+			top: 0px;
+			bottom: 0px;
+			background: fade-out(green,0.5);
+		}
+	}
+}

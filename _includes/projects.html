@@ -5,4 +5,19 @@
 	    	<li>{{ project.name }}</li>
 	    </ul>
 	{% endfor %}
+
+	<div class="thumb-container">
+
+		{% for project in site.data.settings.projects %}
+
+			<div class="thumb-unit">
+
+				<div class="thumb-overlay">
+					{{ project.name }}
+				</div>
+
+			</div>
+		{% endfor %}
+
+	</div>
 </div>

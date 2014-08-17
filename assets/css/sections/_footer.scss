@@ -1,0 +1,21 @@
+#footer-area{
+	width: 60%;
+	margin: 0 auto;
+	.footer-button{
+		background-color: #B1B17A;
+		width: 200px;
+		height: 40px;
+		font-family: 'Lato';
+		text-align: center;
+		line-height: 35px;
+		font-size: 30px;
+		border: 2px solid;
+		border-radius: 7px;
+		display: inline-block;
+		margin: 0 10px;
+		cursor: pointer;
+		&:hover{
+			background-color: #D1D1A9;
+		}
+	}
+}
