@@ -33,3 +33,7 @@ body{
 	margin: 0 10px;
 	cursor: pointer;
 }
+
+.footer-button:hover{
+	background-color: #D1D1A9;
+}

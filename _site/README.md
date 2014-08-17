@@ -2,6 +2,6 @@
 Bits and pieces written in liquid, markdown, javascript, html and css
 
 Using:
-- [http://getbootstrap.com/](Bootstrap)
-- [http://daneden.github.io/animate.css/](Animate.css)
-- [https://www.google.com/fonts](Google Fonts)
+- <a href="http://getbootstrap.com/">Bootstrap</a>
+- <a href="http://daneden.github.io/animate.css/">Animate.css</a>
+- <a href="https://www.google.com/fonts">Google Fonts</a>
