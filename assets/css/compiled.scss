@@ -2,13 +2,14 @@
 ---
 
 // Colors
-$bgcolor: #F5F5DC;
+$bg-color: #F5F5DC;
+$sidebar-color: #B1B17A;
 
 
 // Misc
 // 
 body{
-	background-color: #F5F5DC;
+	background-color: $bg-color;
 	font-family: 'Lato';
 }
 
