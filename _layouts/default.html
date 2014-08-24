@@ -29,23 +29,34 @@
   <body>
 
 
-	{% include header.html %}
+  	{% include header.html %}
 
-	<div class="container">
-		<div class="row-fluid">
-      <div id="main" class="animated">
-        {{ content }}
-      </div>
+  	<div class="container">
 
-      {% include about.html %}
+  		<div class="row-fluid">
 
-      {% include projects.html %}
+        <div class="col-md-10">
+          <div id="main" class="animated">
+            {{ content }}
+          </div>
 
-      {% include post-list.html %}
-		</div>
-	</div>
-  <br>
-	{% include footer.html %}
+          {% include about.html %}
+
+          {% include projects.html %}
+
+          {% include post-list.html %}
+        </div>
+
+        <div class="col-md-2">
+          {% include sidebar.html %}
+        </div>
+
+  		</div>
+
+      {% include footer.html %}
+
+  	</div>
 
   </body>
+
 </html>
