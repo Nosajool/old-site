@@ -37,3 +37,10 @@ $('#main-button').click(function(){
 	active = "main";
 	$('#main').show().addClass("zoomIn");
 });
+
+$("#menu-toggle").click(function(e) {
+    e.preventDefault();
+    $('#menu-toggle-icon').toggleClass("fa-chevron-left");
+    $('#menu-toggle-icon').toggleClass("fa-chevron-right");
+    $("#wrapper").toggleClass("toggled");
+});

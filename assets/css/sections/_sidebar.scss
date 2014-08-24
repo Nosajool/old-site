@@ -3,7 +3,7 @@
 .sidebar-nav {
     position: absolute;
     top: 0;
-    width: 250px;
+    width: 200px;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -49,7 +49,7 @@
 
 @media(min-width:768px) {
     #wrapper {
-        padding-left: 250px;
+        padding-left: 200px;
     }
 
     #wrapper.toggled {
@@ -57,7 +57,7 @@
     }
 
     #sidebar-wrapper {
-        width: 250px;
+        width: 200px;
     }
 
     #wrapper.toggled #sidebar-wrapper {
@@ -72,4 +72,11 @@
         position: relative;
         margin-right: 0;
     }
+}
+
+
+.icon{
+    width: 25px;
+    height: 25px;
+    background-color: blue;
 }

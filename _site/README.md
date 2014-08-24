@@ -6,4 +6,5 @@ Using:
 - <a href="http://getbootstrap.com/">Bootstrap</a>
 - <a href="http://daneden.github.io/animate.css/">Animate.css</a>
 - <a href="https://www.google.com/fonts">Google Fonts</a>
+- <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a>
 - <a href="http://jquery.com/">Jquery</a>
