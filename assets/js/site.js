@@ -14,6 +14,8 @@ $(document).ready(function(){
 	hideAll();
 });
 
+$('#sidebar-wrapper').draggable({ axis: "x", handle: ".sidebar-handle" });
+
 $('#blog-button').click(function(){
 	hideRmAnimation();
 	active = "post-list";
