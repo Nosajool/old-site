@@ -14,7 +14,7 @@ $(document).ready(function(){
 	hideAll();
 });
 
-$('#sidebar-wrapper').draggable({ axis: "x", handle: ".sidebar-handle" });
+$('#sidebar-wrapper').draggable({ axis: "x", handle: ".sidebar-handle", containment: "parent" });
 
 $('#blog-button').click(function(){
 	hideRmAnimation();
@@ -38,11 +38,4 @@ $('#main-button').click(function(){
 	hideRmAnimation();
 	active = "main";
 	$('#main').show().addClass("zoomIn");
-});
-
-$("#menu-toggle").click(function(e) {
-    e.preventDefault();
-    $('#menu-toggle-icon').toggleClass("fa-chevron-left");
-    $('#menu-toggle-icon').toggleClass("fa-chevron-right");
-    $("#wrapper").toggleClass("toggled");
 });

@@ -47,34 +47,6 @@
     background: none;
 }
 
-@media(min-width:768px) {
-    #wrapper {
-        padding-left: 200px;
-    }
-
-    #wrapper.toggled {
-        padding-left: 0;
-    }
-
-    #sidebar-wrapper {
-        width: 200px;
-    }
-
-    #wrapper.toggled #sidebar-wrapper {
-        width: 0;
-    }
-
-    #page-content-wrapper {
-        padding: 20px;
-    }
-
-    #wrapper.toggled #page-content-wrapper {
-        position: relative;
-        margin-right: 0;
-    }
-}
-
-
 .icon{
     width: 25px;
     height: 25px;
@@ -97,4 +69,9 @@
     background-color: white;
     border-radius: 100%;
     border: 1px solid black;
+}
+
+#sidebar-scroll-container{
+    width: 400px;
+    margin-left: -200px;
 }
