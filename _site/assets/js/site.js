@@ -14,7 +14,14 @@ $(document).ready(function(){
 	hideAll();
 });
 
-$('#sidebar-wrapper').draggable({ axis: "x", handle: ".sidebar-handle", containment: "parent" });
+$('#sidebar-wrapper').draggable({ 
+	axis: "x",
+	handle: ".sidebar-handle",
+	containment: "parent",
+	drag: function(event, ui){
+		$('#page-content-wrapper').css({'margin-left' : ui.position.left });
+	}
+ });
 
 $('#blog-button').click(function(){
 	hideRmAnimation();
