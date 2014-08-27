@@ -16,7 +16,7 @@ $(document).ready(function(){
 
 $('#sidebar-wrapper').draggable({ 
 	axis: "x",
-	handle: ".sidebar-handle",
+	handle: ".sidebar-handle-hitbox",
 	containment: "parent",
 	drag: function(event, ui){
 		$('#page-content-wrapper').css({'margin-left' : ui.position.left });
