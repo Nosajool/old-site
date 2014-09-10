@@ -1,6 +1,8 @@
 ---
 title: Catching My Breath
 layout: default
+path: catching-my-breath
+icon: icon.jpg
 ---
 # {{ page.title }}
 

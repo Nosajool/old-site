@@ -1,6 +1,8 @@
 ---
 title: Playoff Hopes
 layout: default
+path: playoff-hopes
+icon: icon.png
 ---
 # {{ page.title }}
 
