@@ -4,7 +4,7 @@ layout: default
 path: enter-the-hunt
 icon: icon.jpg
 ---
-# {{ page.title }}
+{% include post-title.html %}
 
 ![Waterloo coop]({{ site.url }}/assets/img/posts/enter-the-hunt/waterloo-coop.jpg)
 
@@ -28,3 +28,5 @@ There were tons of mistakes involving inconsistent fonts, bullets and verb tense
 
 Next, I was told to focus more on the projects that I have worked on and less about volunteer work and awards. Yes, they are important, but unless they provided you with direct transferable skills, they most likely won’t attract the eyes of the reader. Words such as “Excellent communication skills” and “Possesses superb leadership and organizational qualities” are very vanilla and don’t add much to a resume without astonishing evidence. I was told to keep the stories and examples of these traits for the interviews but only include quantifiable accomplishments with a proven result in the resume. I ended up adding a couple of high school projects, as well as 2 recent hack day creations and described the technologies that were involved in each of them.
 There have been quite a few more revisions since that first resume overhaul and I’m feeling a lot more confident in comparison to when I wrote my first draft. I’d love to keep writing but unfortunately, I still have assignments to do and if there is one thing that I learned from 1A is that assignments are not those easy math textbook questions you’re used to in high school. They require a bit more time and thought. ;)
+
+{% include post-navigation.html %}

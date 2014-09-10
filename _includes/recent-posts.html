@@ -1,5 +1,5 @@
-{% for post in site.posts limit: 5 %}
-	<div class="row-fluid">
+{% for post in site.posts limit: include.numPosts %}
+	<div class="row-fluid post-container">
 		<div class="span12">
 			<img class="post-icon"src="{{ site.url }}/assets/img/posts/{{ post.path }}/{{ post.icon }}">
 			<div class="post-information">

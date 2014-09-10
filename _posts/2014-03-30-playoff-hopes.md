@@ -4,7 +4,7 @@ layout: default
 path: playoff-hopes
 icon: icon.png
 ---
-# {{ page.title }}
+{% include post-title.html %}
 
 It's pretty depressing when I look at the odds of making the playoffs of my favourite teams:
 
@@ -27,4 +27,5 @@ The most disappointing stat to look at is the point total of my hometown team. A
 Spezza, Ryan, Hemsky, Michalek, Turris and MacArthur form an explosive pack of talent for the first two lines, Smith, Neil and Greening are your textbook third line grinders, and Zibanejad, Condra and Stone/Hoffman/Da Costa/Pageau etc… should all be good enough to fend off other team’s fourth lines. I admit that the Sens’s weak point has been their defensive pairings but they are all pretty young and have the potential to be solid players: Methot, Karlsson, Cowen, Gryba, Wiercioch and Ceci. I don’t understand why we signed Philoops for 2 more years at 2.5 million as a soon to be 7th defense man. In goal, Anderson was an “Elite” goalie last year with net minder of the future, Robin Lehner backing him up. I’m just gonna call this season a fluke, and bring the same expectations I had in September 2013 to September 2014.
  
 Sigh..It’s tough being a caps/nucks/sens fan. At least my teams’ have been struggling all season long and have been gradually disappointing me while heartbroken leafs fans are having their dreams crushed in their recent collapse. 8)
-	
+
+{% include post-navigation.html %}
