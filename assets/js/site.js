@@ -40,9 +40,3 @@ $('#projects-button').click(function(){
 	active = "projects";
 	$('#projects').show().addClass("zoomIn");
 });
-
-$('#main-button').click(function(){
-	hideRmAnimation();
-	active = "main";
-	$('#main').show().addClass("zoomIn");
-});
