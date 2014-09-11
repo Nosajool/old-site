@@ -35,24 +35,29 @@ body {
   border: 5px solid black; }
 
 .thumb-container {
-  max-width: 960px; }
+  max-width: 1500px; }
   .thumb-container .thumb-unit {
     width: 33%;
     padding-top: 20%;
+    margin: 10px;
     /*height: 150px;*/
     display: block;
     float: left;
-    background-image: url(/assets/img/projects/kik-the-code/img1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative; }
+    position: relative;
+    border: 2px solid black; }
+    .thumb-container .thumb-unit .project-title-text {
+      margin-top: 20%;
+      font-size: 20px;
+      text-align: center; }
     .thumb-container .thumb-unit .thumb-overlay {
       position: absolute;
       left: 0px;
       right: 0px;
       top: 0px;
       bottom: 0px;
-      background: rgba(0, 128, 0, 0.5); }
+      background-color: rgba(0, 128, 0, 0.5); }
+      .thumb-container .thumb-unit .thumb-overlay:hover {
+        background-color: rgba(0, 0, 255, 0.5); }
 
 .post-icon {
   width: 75px;

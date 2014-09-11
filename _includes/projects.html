@@ -1,11 +1,5 @@
 <div id="projects" class="animated">
 	<h1>Projects</h1>
-	{% for project in site.data.settings.projects %}
-	    <ul>
-	    	<li>{{ project.name }}</li>
-	    </ul>
-	{% endfor %}
-
 	<div class="thumb-container">
 
 		{% for project in site.data.settings.projects %}
@@ -13,7 +7,7 @@
 			<div class="thumb-unit">
 
 				<div class="thumb-overlay">
-					{{ project.name }}
+					<div class="project-title-text">{{ project.name }}</div>
 				</div>
 
 			</div>
