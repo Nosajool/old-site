@@ -1,3 +1,11 @@
 <div class="header-container">
-	<div id="title-text">{{ site.name }}</div> {{ site.data.settings.description | markdownify }}
+	<table class="header-table">
+		<tr>
+			<td rowspan="2"><img class="icon-photo" src="{{ site.url }}/assets/img/layout/icon.jpg"></td>
+			<td><div id="title-text">{{ site.name }}</div></td>
+		</tr>
+		<tr>
+			<td><div class="description-text">{{ site.data.settings.description }}</div></td>
+		</tr>
+	</table>	
 </div>
