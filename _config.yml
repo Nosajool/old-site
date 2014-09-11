@@ -1,7 +1,8 @@
 name: Jason Loo
 description: Title to be Determined
 
-url: "http://localhost:4000"
+# url: "http://localhost:4000"
+url: "http://nosajool.github.io/"
 
 paginate: 5
 
