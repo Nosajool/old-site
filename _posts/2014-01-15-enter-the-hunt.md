@@ -6,7 +6,7 @@ icon: icon.jpg
 ---
 {% include post-title.html %}
 
-![Waterloo coop]({{ site.url }}/assets/img/posts/enter-the-hunt/waterloo-coop.jpg)
+![Waterloo coop](/assets/img/posts/enter-the-hunt/waterloo-coop.jpg)
 
 This. Is. It.  The moment I’ve been dreading yet yearning for so long is just around the corner.
 
@@ -14,7 +14,7 @@ On Saturday, January 18th, I will embark on the co-op job hunting process and us
 
 I currently have mixed feelings heading into this application cycle as I’ve heard various opinions of one’s first work term. The general consensus among my classmates is that they’d be happy with any software related job whether it’s as a software developer, a quality analyst etc… This may be due to them believing to not have enough experience (programming and/or paid work) to be choosy. Others who programmed extensively throughout high school are planning on handing their resumes to the big name Silicon Valley companies at the employer information sessions. I’m definitely part of the first group because I’m just excited to work in the software development environment and know that I will be learning new technologies regardless of the job title.
 
-![Login to Jobmine]({{ site.url }}/assets/img/posts/enter-the-hunt/login-jobmine.jpg)
+![Login to Jobmine](/assets/img/posts/enter-the-hunt/login-jobmine.jpg)
  
 There are 3 phases to the co-op application cycle. First, second and continuous phases. During the first and second phases, you are allowed to hold at any given time up to 50 active job applications. I believe that the first phase is divided into 2 postings one week apart with the majority of the jobs being placed in the first posting. Upon being excluded from a job, you can apply to another job to bring your total back up to 50. In the continuous phase, there is no limit to the number of active job applications however by this time, the job bank will be much smaller than it was in the first phase. We’ve been told repeatedly by the centre for career action that we should max out this number at all times to increase our chances of getting an interview.
 
@@ -24,7 +24,7 @@ Although I relucted to edit the resume that I did for my co-op class over the Ch
 
 There were tons of mistakes involving inconsistent fonts, bullets and verb tenses. But the key point that I took from this critique was that I had to shrink it to one page and tailor it specifically for a software job. Graduating from French immersion program and passing the DELF (Diplôme d’études en langue française) Level B2, I believed that the verbal languages that I spoke should be something that I include in a resume. However, I quickly learned from the critique session that although the ability to speak French could for sure help one in communicating one’s ideas to French coworkers, in the world of software engineering, being able to speak, write and read in French is definitely not something that will jump out of the page on a resume and is never a part of the required skillsets for a job posting. Even worse, stating that you can speak English on a resume could suggest that it is not your first language and that you might not be fluent. If you are writing your resume in English, it is implies that you can speak the language. No need to waste precious space on an already assumed skill or give the employer doubt.
 
-![Resume under Construction]({{ site.url }}/assets/img/posts/enter-the-hunt/resume-construction.jpg) 
+![Resume under Construction](/assets/img/posts/enter-the-hunt/resume-construction.jpg) 
 
 Next, I was told to focus more on the projects that I have worked on and less about volunteer work and awards. Yes, they are important, but unless they provided you with direct transferable skills, they most likely won’t attract the eyes of the reader. Words such as “Excellent communication skills” and “Possesses superb leadership and organizational qualities” are very vanilla and don’t add much to a resume without astonishing evidence. I was told to keep the stories and examples of these traits for the interviews but only include quantifiable accomplishments with a proven result in the resume. I ended up adding a couple of high school projects, as well as 2 recent hack day creations and described the technologies that were involved in each of them.
 There have been quite a few more revisions since that first resume overhaul and I’m feeling a lot more confident in comparison to when I wrote my first draft. I’d love to keep writing but unfortunately, I still have assignments to do and if there is one thing that I learned from 1A is that assignments are not those easy math textbook questions you’re used to in high school. They require a bit more time and thought. ;)

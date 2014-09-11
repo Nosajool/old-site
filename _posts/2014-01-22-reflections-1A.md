@@ -11,12 +11,12 @@ At Waterloo, after week 5 of classes, first year engineering students get to enj
 Finals on the other hand, are a bit more stressful. These tend to be worth 50-80% of the final mark and for the most part, you must pass the final in order to pass the course. There is a theory that if a professor gives you an easy midterm, he’ll give you a hard final. And vice versa. I don’t believe that this applies to all courses but I experienced it for a couple of classes in 1A. Finals are spread out over 3 weeks in December after the completion of the 10th week of class. My exams were spaced evenly with a 1 day break between each one. Once again, I experienced that weird sense of free time that I had felt during midterms. Without classes, and assignments, I found that there was definitely enough time to review all of the material provided you hadn’t fallen behind in the lectures. (I’ll admit, I got lost near the end of the two ECE courses)
 Midterms are 1 hour and a half long while finals are 2 and a half hours.
 
-![Gym Exam]({{ site.url }}/assets/img/posts/exams-1a/gym.jpg)
+![Gym Exam](/assets/img/posts/exams-1a/gym.jpg)
  
 Let’s examine each of the 10 exams that I took this past year in 1A!
 
 ## MATH 119 Calculus 1 for Engineering
-![Calculus]({{ site.url }}/assets/img/posts/exams-1a/calc.png)
+![Calculus](/assets/img/posts/exams-1a/calc.png)
  
 ### Midterm:
 Out of the five classes with exams, I studied the least for this midterm. All of the material for the first 5 weeks had been review of functions and we ended with limits. (And if I recall correctly, we might have covered derivatives by this point) Anyways, most of my class found this to be a very easy midterm and we had a class average of +80%.  I was pretty disappointed in myself as I knew how to solve almost all of the answers but made really dumb mistakes which cost me marks that could have been avoided with more practice.
@@ -29,7 +29,7 @@ The midterm served as a good wakeup call for me so in addition to working throug
 **Verdict/Advice:**  If you didn’t take AP calculus, you’ll quickly learn that, “I don’t study for math courses” isn’t going to work anymore.
 
 ## MATH 115 Linear Algebra for Engineering
-![Linear Algebra]({{ site.url }}/assets/img/posts/exams-1a/linalg.png)
+![Linear Algebra](/assets/img/posts/exams-1a/linalg.png)
 
 ### Midterm:
 Very straight forward. The assignments are much harder than the midterm questions so if you did well on the assignments, then the midterm will be easy. Otherwise, I suggest reading the text book as it does a fantastic job and conveying concepts. In this course, I found that in terms of difficulty, assignments>final>quizzes>midterm.
@@ -41,7 +41,7 @@ Once again, there weren’t any surprises on the final. The questions were all v
 **Verdict/Advice:**  When preparing for the final, redo your assignments and quizzes as the final is just a bunch of variations of these types of questions.
 
 ## ECE 140 Linear Circuits
-![Circuits]({{ site.url }}/assets/img/posts/exams-1a/circuits.png)
+![Circuits](/assets/img/posts/exams-1a/circuits.png)
 
 ### Midterm:
 If you can do the previous year’s midterms, then you are pretty much set for this one. There are only so many tricks that the professor can throw at you with such few circuit elements and if you’ve been following along with his/her examples in class, you shouldn’t have a problem with this one. I believe that our midterm was 4 circuits where in each circuit, we had to find either the voltage, current, resistance or power.
@@ -54,7 +54,7 @@ This course ramped up so fast after the midterm. Once complex numbers were invol
 **Verdict/Advice:**  Do the optional assignments. Just do them.
 
 ## ECE 105: Physics 1 of Electrical Engineering
-![Physics]({{ site.url }}/assets/img/posts/exams-1a/physics.jpg)
+![Physics](/assets/img/posts/exams-1a/physics.jpg)
 
 ### Midterm:
 “You ain’t an engineer until you’ve failed the physics midterm!” Enough said. You might have thought you were good at physics in high school but you are about to get destroyed. The concepts are the same as in high school up until the midterm but the questions are on a whole different level.  There are 3 reasons why this test is difficult.
@@ -70,7 +70,7 @@ The questions on the final are of equal difficulty to the questions on the midte
 **Verdict/Advice:** You’ll learn from the midterm that you have to change your study habits and will work hard to earn your physics final grade.
 
 ## CS 137: Programming Principles
-![CS]({{ site.url }}/assets/img/posts/exams-1a/cs.png) 
+![CS](/assets/img/posts/exams-1a/cs.png) 
 
 ### Midterm:
 I believe now, in order to get into the Software Engineering Program at the University of Waterloo, you need prior programming experience. I agree with this as this course is very tough if you have never programmed before. This was the only class that had a bi-modal distribution in terms of marks as the class was essentially divided into people that knew how to program in high school and people who didn’t. We went through the basics very quickly for a new programmer as it is assumed that you know how to use variables, loops and arrays. The most shocking thing for many students was that tests in computer science are all written by hand. I advise you all to take your notes in pen or pencil and then if you’d like to prove to yourself that the code works, type it up when you get home. You don’t get syntax highlighting on exams so make sure to literally indent your written lines of code and close all of your if/loop statements.

@@ -8,7 +8,7 @@ icon: icon.png
 
 It's pretty depressing when I look at the odds of making the playoffs of my favourite teams:
 
-![Ottawa Senator's Playoff Hopes]({{ site.url }}/assets/img/posts/playoff-hopes/ottawa-playoff-chances.png)
+![Ottawa Senator's Playoff Hopes](/assets/img/posts/playoff-hopes/ottawa-playoff-chances.png)
 
 *Taken from* [Sports Club Stats](http://www.sportsclubstats.com/)
 

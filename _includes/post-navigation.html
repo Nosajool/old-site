@@ -2,7 +2,7 @@
 	{% if page.previous != nil %}
 		<a href="{{ page.previous.url }}"class="btn post-navigation-button"><span class="fa fa-chevron-left"></span> &nbsp; Previous Post</a>
 	{% endif %}
-	<a href="{{ site.url }}/posts/index.html" class="btn post-navigation-button">All Posts &nbsp;<span class="fa fa-list"></span></a>
+	<a href="/posts/index.html" class="btn post-navigation-button">All Posts &nbsp;<span class="fa fa-list"></span></a>
 	{% if page.next != nil %}
 		<a href="{{ page.next.url }}" class="btn post-navigation-button">Next Post &nbsp; <span class="fa fa-chevron-right"></span></a>
 	{% endif %}
