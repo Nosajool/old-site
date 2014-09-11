@@ -1,10 +1,9 @@
 ---
 title: Catching My Breath
-layout: default
+layout: post
 path: catching-my-breath
 icon: icon.jpg
 ---
-{% include post-title.html %}
 
 The past week has been a blur. 3 assignments, 2 lab reports, 2 midterms, 30+ hours of labs + lectures + tutorials and 4 job interviews. I guess that’s engineering for you. As I sit here on this 8 hour bus ride, I finally have the chance to recollect my thoughts. All I can say is that I hope that I’m not the only one in my class that feels pretty overwhelmed right now.
 
@@ -25,5 +24,3 @@ Our digital logic midterm was split into two 10% quizzes with the first one bein
 Lastly, I’ve finally discovered the Software Engineering Lab. It’s a pretty big room that only software engineering students have access to (all disciplines have one I believe) with computers, tables, chairs and WHITEBOARDS! Studying for CS was great as we could just verbally quiz each other by giving some sample code and drawing the memory models on the boards. And when we got them wrong, the upper years were very helpful in explaining what we did wrong. It’s like having personal TA’s! I think that I’m going to continue going there when I get back from reading week as I’ve felt pretty productive. In your room, you can get distracted by roommates or the internet. In the library, you can get stuck, and waste hours trying to solve a simple problem. But in the lab, you, and a bunch of other classmates are in an environment where your goal is to finish what you had planned and get out of there as fast as you can. I’ve been gotten through my daily work goals since going there.
 
 These were pretty random topics… After reading week and my last two midterms, I’ll probably write a more specific post about my first co-op interview cycle.
-
-{% include post-navigation.html %}
