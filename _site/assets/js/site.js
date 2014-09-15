@@ -1,5 +1,9 @@
 // Jason Loo
 
+
+// Sidebar Elements
+var animationStyle = "zoomIn";
+
 function hideAll(){
 	$('#post-list').hide();
 	$('#about').hide();
@@ -7,7 +11,7 @@ function hideAll(){
 }
 
 function hideRmAnimation(){
-	$('#' + active).hide().removeClass("zoomIn");
+	$('#' + active).hide().removeClass(animationStyle);
 }
 var active = "main";
 $(document).ready(function(){
@@ -26,17 +30,21 @@ $('#sidebar-wrapper').draggable({
 $('#blog-button').click(function(){
 	hideRmAnimation();
 	active = "post-list";
-	$('#post-list').show().addClass("zoomIn");
+	$('#post-list').show().addClass(animationStyle);
 });
 
 $('#about-me-button').click(function(){
 	hideRmAnimation();
 	active = "about";
-	$('#about').show().addClass("zoomIn");
+	$('#about').show().addClass(animationStyle);
 });
 
 $('#projects-button').click(function(){
 	hideRmAnimation();
 	active = "projects";
-	$('#projects').show().addClass("zoomIn");
+	$('#projects').show().addClass(animationStyle);
 });
+
+
+
+// Work Section

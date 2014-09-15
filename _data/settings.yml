@@ -5,6 +5,17 @@ title: Jason Loo
 description: Software Engineering Student at the University of Waterloo
 email: jmloo@uwaterloo.ca
 
+
+#-------------------------------
+# Sidebar section
+sidebaritems:
+- { name: About, id: about-me-button, class: "fa fa-info fa-lg", link: "#" }
+- { name: Projects, id: projects-button, class: "fa fa-paper-plane fa-lg", link: "#" }
+- { name: Blog, id: blog-button, class: "fa fa-pencil fa-lg", link: "#" }
+- { name: Github, id: "", class: "fa fa-github fa-lg", link: "https://github.com/Nosajool" }
+- { name: LinkedIn, id: "", class: "fa fa-linkedin fa-lg", link: "https://www.linkedin.com/pub/jason-loo/85/703/75a" }
+- { name: Twitter, id: "", class: "fa fa-twitter fa-lg", link: "https://twitter.com/J_waterLoo" }
+
 #-------------------------------
 # About Section
 
