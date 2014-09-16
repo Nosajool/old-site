@@ -106,7 +106,7 @@ body {
   display: inline-block;
   border: 2px solid black;
   border-radius: 30%;
-  margin-bottom: 80px; }
+  margin-bottom: 125px; }
 
 .post-information {
   margin-left: 10px;
@@ -210,3 +210,14 @@ body {
 
 #sidebar-scroll-container {
   width: 200px; }
+
+.work-container .work-icon {
+  margin-left: 10%;
+  position: absolute; }
+.work-container .work-description-container {
+  height: 300px;
+  margin-bottom: 50px; }
+  .work-container .work-description-container .job-title {
+    font-size: 30px; }
+  .work-container .work-description-container .job-employer {
+    font-size: 20px; }

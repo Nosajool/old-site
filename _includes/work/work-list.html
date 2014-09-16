@@ -1,0 +1,31 @@
+<h1>Work Experience</h1>
+<br>
+<div class="work-container">
+	{% for job in site.data.settings.jobs %}
+		<div class="row">
+			<div class="col-md-6">
+				<img src="assets/img/work/{{ job.folder }}/{{ job.icon }}" class="img-responsive work-icon">
+				</img>
+			</div>
+			<div class="col-md-6">
+				<div class="work-description-container">
+					<div class="job-title">
+						{{ job.title }}
+					</div>
+					<div class="job-employer">
+						{{ job.employer }}
+					</div>
+					<div class="job-date">
+						{{ job.date }}
+					</div>
+					<div class="job-location">
+						{{ job.location }}
+					</div>
+					<div class="job-description">
+						{{ job.description }}
+					</div>
+				</div>
+			</div>
+		</div>
+	{% endfor %}
+</div>

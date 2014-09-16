@@ -10,7 +10,8 @@ email: jmloo@uwaterloo.ca
 # Sidebar section
 sidebaritems:
 - { name: About, id: about-me-button, class: "fa fa-info fa-lg", link: "#" }
-- { name: Projects, id: projects-button, class: "fa fa-paper-plane fa-lg", link: "#" }
+- { name: Projects, id: projects-button, class: "fa fa-code fa-lg", link: "#" }
+- { name: Work, id: "work-button", class: "fa fa-cubes fa-lg", link: "#" }
 - { name: Blog, id: blog-button, class: "fa fa-pencil fa-lg", link: "#" }
 - { name: Github, id: "", class: "fa fa-github fa-lg", link: "https://github.com/Nosajool" }
 - { name: LinkedIn, id: "", class: "fa fa-linkedin fa-lg", link: "https://www.linkedin.com/pub/jason-loo/85/703/75a" }
@@ -71,7 +72,24 @@ teams:
 
 #-------------------------------
 # Work Section
+jobs:
+- title: "Release and QA Engineer"
+  employer: "Kik"
+  location: "Waterloo, ON"
+  description: ""
+  folder: "kik"
+  icon: "icon.PNG"
+  date: "May 2014 - August 2014"
+- title: "Senior Timekeeper"
+  employer: "Nepean Girls Hockey Association"
+  location: "Nepean, ON"
+  description: ""
+  folder: "ngha"
+  icon: "icon.png"
+  date: "September 2010 - May 2013"
 
+#-------------------------------
+# Projects Section
 projects:
 - name: "Kik The Code"
   folder: "kik-the-code"

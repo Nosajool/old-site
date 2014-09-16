@@ -9,31 +9,11 @@
 			<img id="project-right-image"class="project-image" src="/assets/img/projects/{{ project.folder }}/{{ project.right-icon }}"></img>
 			{% if project.url %}
 				<div onclick="location.href='{{ project.url }}'" class="thumb-overlay">
-					{% if project.github %}
-						<div class="project-github-container">
-							<a class="project-repo" href="{{ project.github }}"><span class="fa fa-github fa-3x"></span></a>
-						</div>
-					{% endif %}
-					<div class="project-title-container">
-						<!-- <span class="project-title-text">{{ project.name }}</span> -->
-					</div>
-					<div class="project-tech-container">
-						<div class="project-tech-text">{{ project.tech }}</div>
-					</div>
+					{% include projects/project-overlay.html %}
 				</div>
 			{% else %}
 				<div class="thumb-overlay no-link">
-					{% if project.github %}
-						<div class="project-github-container">
-							<a class="project-repo" href="{{ project.github }}"><span class="fa fa-github fa-3x"></span></a>
-						</div>
-					{% endif %}
-					<div class="project-title-container">
-						<!-- <span class="project-title-text">{{ project.name }}</span> -->
-					</div>
-					<div class="project-tech-container">
-						<div class="project-tech-text">{{ project.tech }}</div>
-					</div>
+					{% include projects/project-overlay.html %}
 				</div>				
 			{% endif %}
 		</div>

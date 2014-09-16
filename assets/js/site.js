@@ -12,6 +12,7 @@ function hideSidebarItems(){
 	$('#post-list').hide();
 	$('#about').hide();
 	$('#projects').hide();
+	$('#work-list').hide();
 }
 
 function hideRmAnimation(){
@@ -48,5 +49,12 @@ $('#projects-button').click(function(){
 	active = "projects";
 	$('#projects').show().addClass(animationStyle);
 });
+
+$('#work-button').click(function(){
+	hideRmAnimation();
+	active = "work-list";
+	$('#work-list').show().addClass(animationStyle);
+});
+
 
 // Work Section
