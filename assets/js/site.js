@@ -5,6 +5,10 @@
 var animationStyle = "zoomIn";
 
 function hideAll(){
+	hideSidebarItems();
+}
+
+function hideSidebarItems(){
 	$('#post-list').hide();
 	$('#about').hide();
 	$('#projects').hide();
@@ -44,7 +48,5 @@ $('#projects-button').click(function(){
 	active = "projects";
 	$('#projects').show().addClass(animationStyle);
 });
-
-
 
 // Work Section

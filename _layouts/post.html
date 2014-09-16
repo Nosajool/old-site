@@ -41,9 +41,15 @@
                             {{ content }}
                             {% include posts/post-navigation.html %}
                         </div>
-                        {% include projects.html %}
-                        {% include about.html %}
-                        {% include posts/post-list.html %}
+                        <div id="projects" class="animated">
+                            {% include projects/projects.html %}
+                        </div>
+                        <div id="about" class="animated">
+                            {% include about.html %}
+                        </div>
+                        <div id="post-list" class="animated">
+                            {% include posts/post-list.html %}
+                        </div>
                     </div>
                 </div>
             </div>

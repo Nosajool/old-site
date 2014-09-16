@@ -73,9 +73,9 @@ teams:
 # Work Section
 
 projects:
-- { name: Kik The Code, folder: 'kik-the-code', file: 'projects/kik-the-code.html' }
-- { name: League of Valor, folder: 'league-of-valor', file: 'projects/league-of-valor.html' }
-- { name: Smack Down, folder: 'smack-down', file: 'projects/smack-down.html' }
-- { name: Questionit, folder: 'questionit', file: 'projects/questionit.html' }
-- { name: Github Issue Generator, folder: 'github-issue-generator', file: 'projects/github-issue-generator.html' }
-- { name: Vion Genesis, folder: 'vion-genesis', file: 'projects/vion-genesis.html' }
+- { name: Kik The Code, folder: 'kik-the-code', icon: main.png, description: "Did stuff", tech: "Node JS, Express JS, Socket IO, JQuery, Kik API, Bootstrap" }
+- { name: League of Valor, icon: icon.png, folder: 'league-of-valor', tech: "Ruby On Rails, Riot API, Bootstrap" }
+- { name: Questionit, folder: 'questionit', icon: icon.PNG, tech: "Ruby On Rails" }
+- { name: Github Issue Generator, icon: icon.PNG, tech: "AngularJS, Bootstrap", folder: 'github-issue-generator' }
+- { name: Vion Genesis, folder: 'vion-genesis', tech: "PHP, MySQL", icon: icon.png }
+- { name: Smack Down, folder: 'smack-down', tech: "Java, Java Swing", icon: icon.png }
