@@ -45,22 +45,6 @@ body {
     float: left;
     position: relative;
     border: 2px solid black; }
-    .thumb-container .thumb-unit .project-title-container {
-      margin-top: 7%;
-      text-align: center; }
-      .thumb-container .thumb-unit .project-title-container .project-title-text {
-        color: #ABAAAA;
-        font-family: "Helvetica";
-        padding: 5px;
-        font-size: 65px; }
-    .thumb-container .thumb-unit .project-tech-container {
-      position: absolute;
-      bottom: 0px;
-      width: 100%;
-      background-color: rgba(255, 255, 255, 0.7); }
-      .thumb-container .thumb-unit .project-tech-container .project-tech-text {
-        left: 5px;
-        font-size: 20px; }
     .thumb-container .thumb-unit .thumb-overlay {
       text-decoration: none;
       color: black;
@@ -71,7 +55,32 @@ body {
       bottom: 0px;
       background-color: rgba(255, 255, 255, 0.7); }
       .thumb-container .thumb-unit .thumb-overlay:hover {
+        cursor: pointer;
         background-color: rgba(0, 0, 0, 0.1); }
+      .thumb-container .thumb-unit .thumb-overlay .project-title-container {
+        margin-top: 7%;
+        text-align: center; }
+        .thumb-container .thumb-unit .thumb-overlay .project-title-container .project-title-text {
+          color: #ABAAAA;
+          font-family: "Helvetica";
+          padding: 5px;
+          font-size: 65px; }
+      .thumb-container .thumb-unit .thumb-overlay .project-tech-container {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.7); }
+        .thumb-container .thumb-unit .thumb-overlay .project-tech-container .project-tech-text {
+          left: 5px;
+          font-size: 20px; }
+      .thumb-container .thumb-unit .thumb-overlay .project-github-container {
+        padding: 10px;
+        text-align: right; }
+        .thumb-container .thumb-unit .thumb-overlay .project-github-container .project-repo {
+          color: black;
+          text-decoration: none; }
+          .thumb-container .thumb-unit .thumb-overlay .project-github-container .project-repo:hover {
+            color: #4183c4; }
     .thumb-container .thumb-unit .thumb-overlay.no-link:hover {
       cursor: not-allowed; }
 

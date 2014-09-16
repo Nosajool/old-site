@@ -84,9 +84,10 @@ projects:
   left-icon: "icon.png"
   right-icon: "right.PNG"
   folder: 'league-of-valor'
-  description: 'Using the Riot Games API, developped a League of Legends RPG in Ruby on Rails. In progress'
+  description: 'Using the Riot Games API, developped a League of Legends RPG in Ruby on Rails. Can catch champions and battle other summoners. In progress'
   tech: "Ruby On Rails, PostgreSQL, Riot Games API, Bootstrap"
   url: "https://league-of-valor.herokuapp.com/"
+  github: "https://github.com/Nosajool/League-Of-Valor"
 - name: Questionit
   folder: 'questionit'
   left-icon: "icon.PNG"
@@ -94,12 +95,14 @@ projects:
   description: "A Reddit-like question and answer site built with Ruby on Rails. In progress."
   tech: "Ruby On Rails, PostgreSQL, Bootstrap"
   url: "https://questionit.herokuapp.com/"
+  github: "https://github.com/matthewdu/questionit"
 - name: Food Card
   folder: "food-card"
   description: "Find and share Recipes using Kik. Ranked #387 on top.kik.com"
   left-icon: "icon.PNG"
   right-icon: "right.PNG"
   tech: "App Js, Node JS"
+  github: "https://github.com/Nosajool/Food-Card"
   url: "http://food-card.herokuapp.com/"
 - name: Github Issue Generator
   left-icon: "icon.PNG"
@@ -112,7 +115,8 @@ projects:
   tech: "Java, Java Swing"
   left-icon: "icon.png"
   right-icon: "right.PNG"
-  description: "An SE Hackday project. Surprisingly a lot of fun for such a simple game."
+  description: "An SE Hackday project where you knock your opponent into the air and smack them back into the ground. Surprisingly a lot of fun for such a simple game."
+  github: "https://github.com/Nosajool/SmackDown"
 - name: Vion Genesis
   folder: 'vion-genesis'
   tech: "PHP, MySQL, HTML, CSS"
