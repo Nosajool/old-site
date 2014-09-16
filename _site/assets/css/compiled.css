@@ -69,12 +69,24 @@ body {
       bottom: 0px;
       background-color: rgba(255, 255, 255, 0.7); }
       .thumb-container .thumb-unit .thumb-overlay:hover {
+        cursor: pointer;
         background-color: rgba(0, 0, 0, 0.1); }
 
 .project-image {
   position: absolute;
-  width: 100%;
+  width: 50%;
   height: 222px; }
+
+#project-right-image {
+  margin-left: 50%; }
+
+.project-description-unit {
+  height: 300px;
+  padding-top: 10px; }
+  .project-description-unit .project-description-title {
+    font-size: 35px; }
+  .project-description-unit .project-description-text {
+    font-size: 20px; }
 
 .post-icon {
   width: 75px;

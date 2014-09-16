@@ -73,9 +73,42 @@ teams:
 # Work Section
 
 projects:
-- { name: Kik The Code, folder: 'kik-the-code', icon: main.png, description: "Did stuff", tech: "Node JS, Express JS, Socket IO, JQuery, Kik API, Bootstrap" }
-- { name: League of Valor, icon: icon.png, folder: 'league-of-valor', tech: "Ruby On Rails, Riot API, Bootstrap" }
-- { name: Questionit, folder: 'questionit', icon: icon.PNG, tech: "Ruby On Rails" }
-- { name: Github Issue Generator, icon: icon.PNG, tech: "AngularJS, Bootstrap", folder: 'github-issue-generator' }
-- { name: Vion Genesis, folder: 'vion-genesis', tech: "PHP, MySQL", icon: icon.png }
-- { name: Smack Down, folder: 'smack-down', tech: "Java, Java Swing", icon: icon.png }
+- name: "Kik The Code"
+  folder: "kik-the-code"
+  left-icon: "main.png"
+  right-icon: "right.PNG"
+  description: "Winner of the Kik Summer Hackweek 2014. Built a live multiplayer Mastermind web application where you submit your guesses by messaging a bot on Kik."
+  tech: "Node JS, Express JS, Socket IO, JQuery, Kik API, Bootstrap"
+- name: League of Valor
+  left-icon: "icon.png"
+  right-icon: "right.PNG"
+  folder: 'league-of-valor'
+  description: 'Using the Riot API, developped a League of Legends RPG in Ruby on Rails. In progress'
+  tech: "Ruby On Rails, Riot API, Bootstrap"
+- name: Questionit
+  folder: 'questionit'
+  left-icon: "icon.PNG"
+  right-icon: "right.PNG"
+  description: "A Reddit-like question and answer site built with Ruby on Rails. In progress."
+  tech: "Ruby On Rails"
+- name: Food Card
+  folder: "food-card"
+  description: "Find and share Recipes using Kik Messenger"
+  left-icon: "icon.PNG"
+  right-icon: "right.PNG"
+  tech: "App Js, Node JS"
+- name: Github Issue Generator
+  left-icon: "icon.PNG"
+  right-icon: "right.PNG"
+  tech: "AngularJS, Bootstrap"
+  folder: 'github-issue-generator'
+  description: ""
+- name: Vion Genesis
+  folder: 'vion-genesis'
+  tech: "PHP, MySQL"
+  left-icon: "icon.png"
+  right-icon: "right.PNG"
+- name: Smack Down
+  folder: 'smack-down'
+  tech: "Java, Java Swing"
+  left-icon: "icon.png"

@@ -39,17 +39,30 @@
 			bottom: 0px;
 			background-color: fade-out(white, 0.3);
 			&:hover{
+				cursor: pointer;
 				background-color: fade-out(black,0.9);
 			}
 		}
-	}
-
-	.description-unit{
 	}
 }
 
 .project-image{
 	position: absolute;
-	width: 100%;
+	width: 50%;
 	height: 222px;
+}
+
+#project-right-image{
+	margin-left: 50%;
+}
+
+.project-description-unit{
+	height: 300px;
+	padding-top: 10px;
+	.project-description-title{
+		font-size: 35px;
+	}
+	.project-description-text{
+		font-size: 20px;
+	}
 }
