@@ -32,6 +32,8 @@
 		}
 
 		.thumb-overlay{
+			text-decoration: none;
+			color: black;
 			position: absolute;
 			left: 0px;
 			right: 0px;
@@ -39,8 +41,12 @@
 			bottom: 0px;
 			background-color: fade-out(white, 0.3);
 			&:hover{
-				cursor: pointer;
 				background-color: fade-out(black,0.9);
+			}
+		}
+		.thumb-overlay.no-link{
+			&:hover{
+				cursor: not-allowed;
 			}
 		}
 	}

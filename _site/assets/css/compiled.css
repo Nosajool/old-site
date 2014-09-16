@@ -62,6 +62,8 @@ body {
         left: 5px;
         font-size: 20px; }
     .thumb-container .thumb-unit .thumb-overlay {
+      text-decoration: none;
+      color: black;
       position: absolute;
       left: 0px;
       right: 0px;
@@ -69,8 +71,9 @@ body {
       bottom: 0px;
       background-color: rgba(255, 255, 255, 0.7); }
       .thumb-container .thumb-unit .thumb-overlay:hover {
-        cursor: pointer;
         background-color: rgba(0, 0, 0, 0.1); }
+    .thumb-container .thumb-unit .thumb-overlay.no-link:hover {
+      cursor: not-allowed; }
 
 .project-image {
   position: absolute;

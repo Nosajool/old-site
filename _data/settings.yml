@@ -79,36 +79,44 @@ projects:
   right-icon: "right.PNG"
   description: "Winner of the Kik Summer Hackweek 2014. Built a live multiplayer Mastermind web application where you submit your guesses by messaging a bot on Kik."
   tech: "Node JS, Express JS, Socket IO, JQuery, Kik API, Bootstrap"
+  url: "http://textmod.herokuapp.com/"
 - name: League of Valor
   left-icon: "icon.png"
   right-icon: "right.PNG"
   folder: 'league-of-valor'
-  description: 'Using the Riot API, developped a League of Legends RPG in Ruby on Rails. In progress'
-  tech: "Ruby On Rails, Riot API, Bootstrap"
+  description: 'Using the Riot Games API, developped a League of Legends RPG in Ruby on Rails. In progress'
+  tech: "Ruby On Rails, PostgreSQL, Riot Games API, Bootstrap"
+  url: "https://league-of-valor.herokuapp.com/"
 - name: Questionit
   folder: 'questionit'
   left-icon: "icon.PNG"
   right-icon: "right.PNG"
   description: "A Reddit-like question and answer site built with Ruby on Rails. In progress."
-  tech: "Ruby On Rails"
+  tech: "Ruby On Rails, PostgreSQL, Bootstrap"
+  url: "https://questionit.herokuapp.com/"
 - name: Food Card
   folder: "food-card"
-  description: "Find and share Recipes using Kik Messenger"
+  description: "Find and share Recipes using Kik. Ranked #387 on top.kik.com"
   left-icon: "icon.PNG"
   right-icon: "right.PNG"
   tech: "App Js, Node JS"
+  url: "http://food-card.herokuapp.com/"
 - name: Github Issue Generator
   left-icon: "icon.PNG"
   right-icon: "right.PNG"
   tech: "AngularJS, Bootstrap"
   folder: 'github-issue-generator'
-  description: ""
-- name: Vion Genesis
-  folder: 'vion-genesis'
-  tech: "PHP, MySQL"
-  left-icon: "icon.png"
-  right-icon: "right.PNG"
+  description: "Developped a tool to help format bug reports"
 - name: Smack Down
   folder: 'smack-down'
   tech: "Java, Java Swing"
   left-icon: "icon.png"
+  right-icon: "right.PNG"
+  description: "An SE Hackday project. Surprisingly a lot of fun for such a simple game."
+- name: Vion Genesis
+  folder: 'vion-genesis'
+  tech: "PHP, MySQL, HTML, CSS"
+  left-icon: "icon.png"
+  right-icon: "right.PNG"
+  description: "My first ever programming experience. An online monster catching and battling game. Built from scratch with no frameworks or libraries. Wrote lots of raw SQL simply because I didn't know what wrappers were. "
+  url: "http://ex5thgen.comyr.com/"
