@@ -116,7 +116,7 @@ projects:
   github: "https://github.com/matthewdu/questionit"
 - name: Food Card
   folder: "food-card"
-  description: "Find and share Recipes using Kik. Ranked #387 on top.kik.com"
+  description: "Find and share recipes using Kik. Ranked #387 on top.kik.com"
   left-icon: "icon.PNG"
   right-icon: "right.png"
   tech: "App Js, Node JS"
