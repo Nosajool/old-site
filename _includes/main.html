@@ -1,6 +1,7 @@
 <div class="row">
 	<div class="col-md-6">
-		 {{ site.data.settings.intro | markdownify }}
+		{{ site.data.settings.greeting | markdownify }}
+		<div class="intro-text">{{ site.data.settings.intro | markdownify }}</div>
 		 <img class="main-photo"src="/assets/img/layout/main.jpg">
 	</div>
 	<div class="col-md-6">

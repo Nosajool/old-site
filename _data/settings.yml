@@ -16,14 +16,46 @@ sidebaritems:
 - { name: Github, id: "", class: "fa fa-github fa-lg", link: "https://github.com/Nosajool" }
 - { name: LinkedIn, id: "", class: "fa fa-linkedin fa-lg", link: "https://www.linkedin.com/pub/jason-loo/85/703/75a" }
 - { name: Twitter, id: "", class: "fa fa-twitter fa-lg", link: "https://twitter.com/J_waterLoo" }
+- { name: Contact, id: "", class: "fa fa-envelope fa-lg", link: "mailto:jmloo@uwaterloo.ca" }
 
 #-------------------------------
 # About Section
 
-intro: >
+greeting: >
   ### Hi, my name is **Jason**
 
-  I'm a Software Engineering student at the University of Waterloo currently in 2A.
+intro: >
+  I stand here today, amazed by the tech world. 
+
+
+  Not only by what's already out there but from what has **yet to be built**. 
+
+
+  And **I'm ready to be the builder**.
+
+about: >
+  Alright, that's probably the closest thing to poetry that I've ever written... Not gonna do that again.
+
+
+  Welcome to my website! Where I talk about software engineering at the university of waterloo and occasionaly cry about the Ottawa Senators. 
+
+
+  I started programming in [grade 8](http://ex5thgen.comyr.com/) when my friend and I tried to replicate [TPPCRPG](http://www.tppcrpg.net/).
+  My development environment was Notepad for Windows with no syntax highlighting and a plethora of repeated code stored in over 50 php pages in .txt files.
+  I actually keep the repository public on [Github](https://github.com/Nosajool/vion-genesis) to serve as a reminder of how far I've come.
+
+
+  Since then, I've been working towards the other end of the spectrum and have been writing cleaner and more efficient code.
+
+
+
+  This past year, my focus has been on web applications. I've picked up the Ruby on Rails framework and have been playing around with Express and NodeJS.
+  I'd say my forte is implementing the back end logic and database manipulation, but what would a website be without a user interface? I've
+  thus also learned some HTML, CSS and Javascript and made some glorious struggling attempts at the front end designs.
+
+
+
+  Next year, who knows what I'll be working on but I'll update this site with whatever it is.
 
 school:
 - term: Co-op 1
@@ -62,6 +94,24 @@ school:
   - code: SE 101
     title: Introduction to Methods of Software Engineering
     cs: true
+
+currentTerm:
+  term: 2A
+  season: Fall 2014
+  courses:
+  - code: CS 241
+    title: Foundations of Sequential Programs
+    cs: true
+  - code: ECE 222
+    title: Digital Computers
+  - code: SE 212
+    title: Logic and Computation
+  - code: STAT 206
+    title: Statistics for Software Engineering
+  - code: EARTH 121
+    title: Introductory Earth Sciences
+  - code: CHE 102
+    title: Chemistry for Engineers
 
 
 teams:
@@ -106,6 +156,34 @@ projects:
   tech: "Ruby On Rails, PostgreSQL, Riot Games API, Bootstrap"
   url: "https://league-of-valor.herokuapp.com/"
   github: "https://github.com/Nosajool/League-Of-Valor"
+- name: "Personal Website"
+  folder: "website"
+  left-icon: "left.PNG"
+  right-icon: "right.PNG"
+  description: "Built a website from scratch"
+  url: "http://nosajool.github.io/"
+  tech: "Jekyll, HTML, CSS, Javascript, Markdown, Liquid"
+  github: "https://github.com/Nosajool/Nosajool.github.io"
+- name: Food Card
+  folder: "food-card"
+  description: "Find and share recipes using Kik. Ranked #286 on top.kik.com"
+  left-icon: "icon.PNG"
+  right-icon: "right.png"
+  tech: "App Js, Node JS"
+  github: "https://github.com/Nosajool/Food-Card"
+  url: "http://food-card.herokuapp.com/"
+- name: "Reddit Anonymizer"
+  folder: "image-missing"
+  tech: "MongoDB, NodeJS, Express"
+  left-icon: "icon.PNG"
+  right-icon: "icon.PNG"
+  github: "https://github.com/Nosajool/jammedtoast"
+- name: Github Issue Generator
+  left-icon: "icon.PNG"
+  right-icon: "right.PNG"
+  tech: "AngularJS, Bootstrap"
+  folder: 'github-issue-generator'
+  description: "Developped a tool to help format bug reports"
 - name: Questionit
   folder: 'questionit'
   left-icon: "icon.PNG"
@@ -114,20 +192,6 @@ projects:
   tech: "Ruby On Rails, PostgreSQL, Bootstrap"
   url: "https://questionit.herokuapp.com/"
   github: "https://github.com/matthewdu/questionit"
-- name: Food Card
-  folder: "food-card"
-  description: "Find and share recipes using Kik. Ranked #387 on top.kik.com"
-  left-icon: "icon.PNG"
-  right-icon: "right.png"
-  tech: "App Js, Node JS"
-  github: "https://github.com/Nosajool/Food-Card"
-  url: "http://food-card.herokuapp.com/"
-- name: Github Issue Generator
-  left-icon: "icon.PNG"
-  right-icon: "right.PNG"
-  tech: "AngularJS, Bootstrap"
-  folder: 'github-issue-generator'
-  description: "Developped a tool to help format bug reports"
 - name: Smack Down
   folder: 'smack-down'
   tech: "Java, Java Swing"

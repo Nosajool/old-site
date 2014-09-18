@@ -34,6 +34,9 @@ body {
   height: 100%;
   border: 5px solid black; }
 
+.about-intro-text {
+  margin-left: 50px; }
+
 .thumb-container {
   width: 100%;
   height: 300px; }

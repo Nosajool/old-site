@@ -1,13 +1,16 @@
+<div class="col-md-7">
+	{{ site.data.settings.greeting | markdownify }}
+	<div class="about-intro-text">
+		{{ site.data.settings.intro | markdownify }}
+	</div>
+	{{ site.data.settings.about | markdownify }}
 
-{{ site.data.settings.intro | markdownify }}
-
-
-<h4>Courses I've Taken:</h4>
-<ul id="term-list">
-	  {% for term in site.data.settings.school %}
-	  	<li>{{ term.term }} | {{ term.season }}
+	<h4>Current Term:</h4>
+	<ul id="term-list">
+		{% assign current = site.data.settings.currentTerm %}
+		<li>{{ current.term }} | {{ current.season }}
 	  		<ul class="course-list">
-	  			{% for course in term.courses %}
+	  			{% for course in current.courses %}
 	  				<li>
 	  					{{ course.code }}
 	  					{% if course.cs %}
@@ -19,20 +22,40 @@
 	  			{% endfor %}
 	  		</ul>
 	  	</li>
-	  {% endfor %}
-</ul>
+	</ul>
+
+	<h4>Courses I've Taken:</h4>
+	<ul id="term-list">
+		  {% for term in site.data.settings.school %}
+		  	<li>{{ term.term }} | {{ term.season }}
+		  		<ul class="course-list">
+		  			{% for course in term.courses %}
+		  				<li>
+		  					{{ course.code }}
+		  					{% if course.cs %}
+		  						<strong>{{ course.title }}</strong>
+		  					{% else %}
+		  						{{ course.title }}
+		  					{% endif %}
+		  				</li>
+		  			{% endfor %}
+		  		</ul>
+		  	</li>
+		  {% endfor %}
+	</ul>
 
 
-<h4>Teams that I support:</h4>
-<table id="teams">
-	<tr>
+	<h4>Teams that I support:</h4>
+	<table id="teams">
+		<tr>
+			{% for team in site.data.settings.teams %}
+				<td class="team-name">{{ team.name }}</td>
+		{% endfor %}
+		</tr>
+		<tr>
 		{% for team in site.data.settings.teams %}
-			<td class="team-name">{{ team.name }}</td>
-	{% endfor %}
-	</tr>
-	<tr>
-	{% for team in site.data.settings.teams %}
-		<td><img src="/assets/img/about/{{team.image}}" class="team-logo"></td>
-	{% endfor %}
-	</tr>
-</table>
+			<td><img src="/assets/img/about/{{team.image}}" class="team-logo"></td>
+		{% endfor %}
+		</tr>
+	</table>
+</div>
