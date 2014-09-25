@@ -74,7 +74,7 @@ body {
         width: 100%;
         background-color: rgba(255, 255, 255, 0.7); }
         .thumb-container .thumb-unit .thumb-overlay .project-tech-container .project-tech-text {
-          left: 5px;
+          margin-left: 10px;
           font-size: 20px; }
       .thumb-container .thumb-unit .thumb-overlay .project-github-container {
         padding: 10px;

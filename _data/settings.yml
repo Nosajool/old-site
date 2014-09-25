@@ -146,13 +146,21 @@ projects:
   left-icon: "main.png"
   right-icon: "right.PNG"
   description: "Winner of the Kik Summer Hackweek 2014. <br> Built a live multiplayer Mastermind web application where you submit your guesses by messaging a bot on Kik."
-  tech: "Node JS, Express JS, Socket IO, JQuery, Kik API, Bootstrap"
+  tech: "Node JS, Express JS, Socket.IO, JQuery, Kik API, Bootstrap"
   url: "http://textmod.herokuapp.com/"
+- name: "Wordasm"
+  folder: "wordasm"
+  left-icon: "left.jpg"
+  right-icon: "right.jpg"
+  description: "Multi-player Facebook-enabled online word combination game. <br> Built at Hack the North with <a href='http://dvdfu.me/'>David Fu</a>, <a href='http://www.sallysally.ca/'>Sally OuYang</a> and <a href='https://github.com/c9dong'>David Dong</a>"
+  tech: "Node JS, Express JS, Socket.IO, JQuery, Bootstrap"
+  url: "http://wordasm.herokuapp.com/"
+  github: "https://github.com/Nosajool/Wordasm"
 - name: League of Valor
   left-icon: "icon.png"
   right-icon: "right.PNG"
   folder: 'league-of-valor'
-  description: 'Using the Riot Games API, developped a League of Legends RPG in Ruby on Rails. <br> Can catch champions and battle other summoners. In progress'
+  description: 'Using the Riot Games API, developed a League of Legends RPG in Ruby on Rails. <br> Can catch champions and battle other summoners. <br> Built with <a href="http://acromace.com/">Andy Cho</a> <br> In progress'
   tech: "Ruby On Rails, PostgreSQL, Riot Games API, Bootstrap"
   url: "https://league-of-valor.herokuapp.com/"
   github: "https://github.com/Nosajool/League-Of-Valor"
@@ -166,7 +174,7 @@ projects:
   github: "https://github.com/Nosajool/Nosajool.github.io"
 - name: Food Card
   folder: "food-card"
-  description: "Find and share recipes using Kik. <br> Ranked #286 on top.kik.com"
+  description: "Find and share recipes using Kik. <br> Ranked #199 on top.kik.com"
   left-icon: "icon.PNG"
   right-icon: "right.png"
   tech: "App Js, Node JS"
